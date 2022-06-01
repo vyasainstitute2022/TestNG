@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-06-01T13:50:40 IST" name="Suite" finished-at="2022-06-01T13:52:11 IST" duration-ms="91437">
+    <groups>
+      <group name="Retest">
+        <method signature="TestNGAttributes.atest4()[pri:0, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" name="atest4" class="com.vyasa.testng.automation.TestNGAttributes"/>
+      </group> <!-- Retest -->
+      <group name="Regression">
+        <method signature="TestNGAttributes.atest4()[pri:0, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" name="atest4" class="com.vyasa.testng.automation.TestNGAttributes"/>
+        <method signature="TestNGAttributes.test2()[pri:0, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" name="test2" class="com.vyasa.testng.automation.TestNGAttributes"/>
+        <method signature="TestNGAttributes.test3()[pri:2, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" name="test3" class="com.vyasa.testng.automation.TestNGAttributes"/>
+        <method signature="TestNGAutomation.verifySliderHasThreeBooks()[pri:3, instance:com.vyasa.testng.automation.TestNGAutomation@63021689]" name="verifySliderHasThreeBooks" class="com.vyasa.testng.automation.TestNGAutomation"/>
+        <method signature="TestNGAutomation.verifyTitleOfNewArrivalBooks()[pri:5, instance:com.vyasa.testng.automation.TestNGAutomation@63021689]" name="verifyTitleOfNewArrivalBooks" class="com.vyasa.testng.automation.TestNGAutomation"/>
+      </group> <!-- Regression -->
+      <group name="sanity">
+        <method signature="TestNGAttributes.atest4()[pri:0, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" name="atest4" class="com.vyasa.testng.automation.TestNGAttributes"/>
+        <method signature="TestNGAttributes.test1()[pri:1, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" name="test1" class="com.vyasa.testng.automation.TestNGAttributes"/>
+        <method signature="TestNGAutomation.verifyNewArrivalsDisplayed()[pri:2, instance:com.vyasa.testng.automation.TestNGAutomation@63021689]" name="verifyNewArrivalsDisplayed" class="com.vyasa.testng.automation.TestNGAutomation"/>
+        <method signature="TestNGAutomation.verifySliderHasThreeBooks()[pri:3, instance:com.vyasa.testng.automation.TestNGAutomation@63021689]" name="verifySliderHasThreeBooks" class="com.vyasa.testng.automation.TestNGAutomation"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test started-at="2022-06-01T13:50:40 IST" name="Test" finished-at="2022-06-01T13:52:11 IST" duration-ms="91437">
+      <class name="com.vyasa.testng.automation.TestNGAutomation">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.vyasa.testng.automation.TestNGAutomation@63021689]" started-at="2022-06-01T13:51:59 IST" name="browserSetup" finished-at="2022-06-01T13:52:10 IST" duration-ms="11192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="verifyNewArrivalsDisplayed()[pri:2, instance:com.vyasa.testng.automation.TestNGAutomation@63021689]" started-at="2022-06-01T13:52:10 IST" name="verifyNewArrivalsDisplayed" finished-at="2022-06-01T13:52:11 IST" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewArrivalsDisplayed -->
+        <test-method signature="verifySliderHasThreeBooks()[pri:3, instance:com.vyasa.testng.automation.TestNGAutomation@63021689]" started-at="2022-06-01T13:52:11 IST" name="verifySliderHasThreeBooks" finished-at="2022-06-01T13:52:11 IST" duration-ms="75" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySliderHasThreeBooks -->
+        <test-method signature="verifyNewArrivalHasThreeBooks()[pri:4, instance:com.vyasa.testng.automation.TestNGAutomation@63021689]" started-at="2022-06-01T13:52:11 IST" name="verifyNewArrivalHasThreeBooks" finished-at="2022-06-01T13:52:11 IST" duration-ms="32" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyNewArrivalHasThreeBooks -->
+        <test-method signature="verifyTitleOfNewArrivalBooks()[pri:5, instance:com.vyasa.testng.automation.TestNGAutomation@63021689]" started-at="2022-06-01T13:52:11 IST" name="verifyTitleOfNewArrivalBooks" finished-at="2022-06-01T13:52:11 IST" duration-ms="92" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitleOfNewArrivalBooks -->
+        <test-method is-config="true" signature="browserClose()[pri:0, instance:com.vyasa.testng.automation.TestNGAutomation@63021689]" started-at="2022-06-01T13:52:11 IST" name="browserClose" finished-at="2022-06-01T13:52:11 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserClose -->
+      </class> <!-- com.vyasa.testng.automation.TestNGAutomation -->
+      <class name="com.vyasa.testng.dataprovider.DataProviderExample">
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.vyasa.testng.dataprovider.DataProviderExample@60d8c9b7]" started-at="2022-06-01T13:50:40 IST" name="browserSetup" finished-at="2022-06-01T13:51:07 IST" duration-ms="27380" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="loginFlipkart(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vyasa.testng.dataprovider.DataProviderExample@60d8c9b7]" started-at="2022-06-01T13:51:07 IST" name="loginFlipkart" data-provider="login-data" finished-at="2022-06-01T13:51:09 IST" duration-ms="1724" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blankpass]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8660242427]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFlipkart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vyasa.testng.dataprovider.DataProviderExample@60d8c9b7]" started-at="2022-06-01T13:51:09 IST" name="closeBrowser" finished-at="2022-06-01T13:51:10 IST" duration-ms="637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.vyasa.testng.dataprovider.DataProviderExample@60d8c9b7]" started-at="2022-06-01T13:51:10 IST" name="browserSetup" finished-at="2022-06-01T13:51:19 IST" duration-ms="9502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="loginFlipkart(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vyasa.testng.dataprovider.DataProviderExample@60d8c9b7]" started-at="2022-06-01T13:51:19 IST" name="loginFlipkart" data-provider="login-data" finished-at="2022-06-01T13:51:20 IST" duration-ms="615" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[blankuser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFlipkart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vyasa.testng.dataprovider.DataProviderExample@60d8c9b7]" started-at="2022-06-01T13:51:20 IST" name="closeBrowser" finished-at="2022-06-01T13:51:20 IST" duration-ms="348" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="browserSetup()[pri:0, instance:com.vyasa.testng.dataprovider.DataProviderExample@60d8c9b7]" started-at="2022-06-01T13:51:20 IST" name="browserSetup" finished-at="2022-06-01T13:51:58 IST" duration-ms="38095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserSetup -->
+        <test-method signature="loginFlipkart(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.vyasa.testng.dataprovider.DataProviderExample@60d8c9b7]" started-at="2022-06-01T13:51:58 IST" name="loginFlipkart" data-provider="login-data" finished-at="2022-06-01T13:51:59 IST" duration-ms="700" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[successLogon]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[8660242427]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pass@12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFlipkart -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:com.vyasa.testng.dataprovider.DataProviderExample@60d8c9b7]" started-at="2022-06-01T13:51:59 IST" name="closeBrowser" finished-at="2022-06-01T13:51:59 IST" duration-ms="392" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.vyasa.testng.dataprovider.DataProviderExample -->
+      <class name="com.vyasa.testng.automation.TestNGAttributes">
+        <test-method signature="test6()[pri:-3, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" started-at="2022-06-01T13:52:11 IST" name="test6" finished-at="2022-06-01T13:52:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="atest4()[pri:0, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" started-at="2022-06-01T13:52:11 IST" name="atest4" finished-at="2022-06-01T13:52:11 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- atest4 -->
+        <test-method signature="test2()[pri:0, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" started-at="2022-06-01T13:52:11 IST" name="test2" finished-at="2022-06-01T13:52:11 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test5()[pri:0, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" started-at="2022-06-01T13:52:11 IST" name="test5" finished-at="2022-06-01T13:52:11 IST" depends-on-methods="com.vyasa.testng.automation.TestNGAttributes.atest4" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test1()[pri:1, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" started-at="2022-06-01T13:52:11 IST" name="test1" finished-at="2022-06-01T13:52:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test3()[pri:2, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" started-at="2022-06-01T13:52:11 IST" name="test3" finished-at="2022-06-01T13:52:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test7()[pri:5, instance:com.vyasa.testng.automation.TestNGAttributes@2e4b8173]" started-at="2022-06-01T13:52:11 IST" name="test7" finished-at="2022-06-01T13:52:11 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+      </class> <!-- com.vyasa.testng.automation.TestNGAttributes -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
