@@ -1,0 +1,5 @@
+package com.vyasa.testng.dataprovider;
+
+public class CrossBrowserTesting {
+
+}

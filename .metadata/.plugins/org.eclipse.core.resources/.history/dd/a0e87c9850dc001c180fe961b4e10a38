@@ -1,0 +1,22 @@
+package com.vyasa.testng.dataprovider;
+
+import org.testng.annotations.DataProvider;
+import org.testng.annotations.Test;
+
+public class DataProviderExample {
+
+	
+	@Test(dataProvider="login-data")
+	void Registration()
+	{
+		
+	}
+	
+	
+	@DataProvider(name="login-data")
+	public Object[][] loginData() 
+	{   
+				return ;
+	}
+	
+}

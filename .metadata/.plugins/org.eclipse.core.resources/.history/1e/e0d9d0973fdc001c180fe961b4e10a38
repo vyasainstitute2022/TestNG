@@ -1,0 +1,50 @@
+package com.vyasa.testng.automation;
+
+
+public class TestNGAttributes {
+	@Test(priority=1,groups="sanity")
+	void test1()
+	{
+		System.out.println("from test 1");
+	}
+	
+	@Test(groups="Regression")
+	void test2()
+	{
+		System.out.println("from test 2");
+	}
+	
+	@Test(priority=2,groups="Regression",invocationCount=3,invocationTimeOut=10)
+	void test3()
+	{
+		System.out.println("from test 3");
+	}
+	
+	@Test(groups={"sanity","Regression","Retest"},expectedExceptions=java.lang.AssertionError.class)
+	void atest4()
+	{
+		
+		System.out.println("from test 4");
+		System.out.println(10/0);
+	}
+	
+	@Test(dependsOnMethods={"atest4"},alwaysRun=true)
+	void test5()
+	{
+		System.out.println("from test 5");
+	}
+	
+	@Test(priority=-3,description="this is for login")
+	void test6()
+	{
+		System.out.println("from test 6");
+	}
+	
+	// -3 -2 -1 0 1 2 3 4 
+	
+	@Test(priority=5,dependsOnGroups={"Regression"})
+	void test7()
+	{
+		System.out.println("from test 7");
+	}
+}

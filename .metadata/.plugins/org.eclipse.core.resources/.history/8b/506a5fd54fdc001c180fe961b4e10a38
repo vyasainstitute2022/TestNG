@@ -1,0 +1,14 @@
+package com.vyasa.testng.dataprovider;
+
+import org.testng.annotations.DataProvider;
+
+public class DataProviderExample {
+
+	
+	@DataProvider
+	void Registration()
+	{
+		
+	}
+	
+}
